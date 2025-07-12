@@ -1,0 +1,1604 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "gtceu"
+	group: ""
+	icon: {
+		Count: 1
+		id: "gtceu:iron_wrench"
+		tag: {
+			Damage: 0
+			GT.Tool: {
+				Damage: 0
+			}
+		}
+	}
+	id: "2F8B0AFE317363C9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Этот модпак был создан как руководство для &b&lGregtech: Community Edition Unofficial Modern&r&r (так же известный как &aGTCEu Modern&r или &aCEu Modern&r), продолжение &aGTCE&r - который сам по себе является продолжением GregTech."
+				""
+				"Новый контент был добавлен в каждую эпоху вплоть до &3Высокого напряжения,&r и есть немало различных улучшений &dКачества жизни&r."
+				""
+				"Вы можете быстро открыть книгу квестов клавишей &6F4&r (По умолчанию)"
+				""
+				"{@pagebreak}"
+				"Это &2полностью &lтехнический&r&2 модпак&r, основанный на GregTech. Вы не найдете &6лучшего места&r для изучения этого мода!"
+				""
+				"Книга квестов, которую вы сейчас читаете &eполна информации&r которая поможет вам разобраться с этим модпаком, так что загляните сюда если заплутали.  Мы написали ее как для &dВетеранов старой школы&r, так и для &bНовичков&r."
+			]
+			icon: "kubejs:greg_icon"
+			id: "25289F9E8AE01C29"
+			rewards: [{
+				auto: "invisible"
+				icon: "minecraft:cooked_beef"
+				id: "6FD85EC9BD99C866"
+				item: "gtceu:sus_record"
+				title: "Steak"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "Мы надеемся, что вам понравится"
+			tasks: [{
+				id: "6C1F570DB9013DE7"
+				title: "Добро пожаловать!"
+				type: "checkmark"
+			}]
+			title: "Добро пожаловать в GregTech CEu!"
+			x: -0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25289F9E8AE01C29"]
+			description: [
+				"Если ты уже знаком с GregTech, то ты должен быть знаком с многими &c\"упрощениями\"&r ванильных рецептов. &bGTCEu&r не будет простой сборкой - просто взгляни на рецепты &eВедёр&r или &eБумаги&r. Тем не менее мы снизили градус безумия в начале игры, и 1 бревно даст тебе 4 доски. &aНаслаждайся!&r"
+				""
+				"&o&8\"Мое приключение опять начнется с удара руки по дереву? Да уж, ничего нового...\"&r"
+			]
+			icon: "minecraft:oak_log"
+			id: "0EAF2C5B5EB755C5"
+			shape: "square"
+			size: 0.75d
+			subtitle: "Сделай то, что делал всегда"
+			tasks: [
+				{
+					count: 6L
+					id: "34F2867EAF0914BF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					match_nbt: false
+					title: "Любые бревна"
+					type: "item"
+				}
+				{
+					id: "22B6D3C1033D47DA"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Начало начал"
+			x: -0.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Это &6начальный&r список ресурсов, которые пригодятся вам в ранней игре. Соберите больше чем от вас простит квест - они занкончатся прежде чем вы успеете моргнуть, а собирать больше, чем нужно - это очень полезная привычка в &aGregTech&r."
+				""
+				"На самом деле, мы бы посоветовали вам &eзакрыть этот квест первым&r, что бы получить &bнаграду&r. Она поможет вам продвигаться дальше по квестам &4&lПРЕЖДЕ&r чем вы пойдете копать руду."
+				""
+				"Девять печей могут показаться &cизлишком&r если вы новичок в &aGregTech&r, но поверьте нам, печей никогда не бывает много."
+			]
+			icon: "minecraft:sugar_cane"
+			id: "0436F7B60BDEB091"
+			rewards: [{
+				count: 24
+				id: "2D2C971E9E651C2C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Соберем немного ресурсов!"
+			tasks: [
+				{
+					count: 4L
+					id: "37DD7A28A3A7CB26"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0F60FE32A8F7720E"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "23A44568A9FAACA2"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00328CEF98F57407"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C05A84175DBD3A9"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Все что нужно для начала"
+			x: -0.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Генерация руд в &2GregTech&r очень сильно отличается от ванильного майнкрафта. Все руды генерируются в &6огромных залежах&r, в которых могут быть &dсотни&o&r блоков руд."
+				""
+				"В GTCEu теперь есть функция &dВизуальной разведки&r которая, отметит найденные залежи на карте. Щелкните &9правой кнопкой мыши&r по любому блоку руды в жиле, чтобы добавить его на карту. Вы можете включить или выключить отображение маркера в левом нижнем углу вашей карты."
+				"{@pagebreak}"
+				"Полное описание процесса добычи руд приведено на вкладке &6\"Советы и рекомендации\"&r но вот что вам нужно знать:"
+				""
+				"&9-&r рудные жилы генерируются по &4Сетке&r. Каждая жила &9разнесена (примерно) на 3 чанка&r по направлениям света."
+				""
+				"&9-&r Рекомендуется создавать &dМаркеры на карте&r (по умолчанию кнопка &4N&r) для каждой найденной жили, и не забыть указать тип жилы. Скорее всего вы захотите вернуться к той или иной залежи несколько раз."
+			]
+			icon: "gtceu:cobaltite_ore"
+			id: "0C690272ED4FB1C3"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Почему все так странно?"
+			tasks: [{
+				id: "3FA401CACE8BBE5D"
+				title: "Ого, руды и правда звучат захватывающе."
+				type: "checkmark"
+			}]
+			title: "Генерация руд"
+			x: -2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Известно ли вам, что &aGregTech&r поставляется с собственным набором инструментов? Если нет, то вы будете приятно &6&lудивленны&r, узнав что они превосходят свои ванильные аналоги."
+				""
+				"Срубите дерево топором GregTech и вы увидите разницу. Если вы срубите всего 1 блок дерева то он срубит &2все дерево целиком&r. Древесина!"
+				""
+				"Но, к сожалению это значительно скажется на &9прочности&r топора, так что стоит попробывать сделать топор из более &eпрочных материалов&r, допустим таких как &bАлмазы&r. &4Только будьте осторожнее, что бы не сделать ванильный топор!&r"
+				"В награду мы дадим вам &2Саженцы ели&r используйте их что бы выростить агромные деревья. Скоро вам придется очень много плавить и доски станут &dнеэффективным&r топливом."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_axe"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "13354F24F80F65FB"
+			rewards: [{
+				count: 8
+				id: "60E07F9D0763E8E1"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Кому нужен Veinminer?"
+			tasks: [{
+				id: "3880A08A72884627"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:aluminium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:vanadium_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:naquadah_alloy_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 3071
+										ToolSpeed: 42.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:flint_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 63
+										ToolSpeed: 3.5f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:red_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 2559
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:blue_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 17.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:rose_gold_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 2s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 14.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:hsse_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 3071
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 255
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:titanium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1535
+										ToolSpeed: 10.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:neutronium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 6
+										MaxDamage: 65534
+										ToolSpeed: 182.0f
+									}
+									HideFlags: 2
+									Unbreakable: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:duranium_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										RelocateMinedBlocks: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 5
+										MaxDamage: 8191
+										ToolSpeed: 16.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:bronze_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 191
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:invar_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [
+										{
+											id: "minecraft:efficiency"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:bane_of_arthropods"
+											lvl: 3s
+										}
+									]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 6.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:sterling_silver_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:smite"
+										lvl: 3s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 767
+										ToolSpeed: 5.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:cobalt_brass_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 1023
+										ToolSpeed: 4.5f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 11.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:damascus_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									Enchantments: [{
+										id: "minecraft:fortune"
+										lvl: 3s
+									}]
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:tungsten_carbide_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 1023
+										ToolSpeed: 62.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:wrought_iron_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 2
+										MaxDamage: 383
+										ToolSpeed: 4.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:ultimet_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 4
+										MaxDamage: 2047
+										ToolSpeed: 12.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 511
+										ToolSpeed: 7.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:stainless_steel_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 1023
+										ToolSpeed: 9.0f
+									}
+									HideFlags: 2
+								}
+							}
+							{
+								Count: 1b
+								id: "gtceu:diamond_axe"
+								tag: {
+									DisallowContainerItem: 0b
+									GT.Behaviours: {
+										DisableShields: 1b
+										TreeFelling: 1b
+									}
+									GT.Tool: {
+										Damage: 0
+										HarvestLevel: 3
+										MaxDamage: 767
+										ToolSpeed: 8.0f
+									}
+									HideFlags: 2
+								}
+							}
+						]
+					}
+				}
+				title: "Любой топор GregTech"
+				type: "item"
+			}]
+			title: "Валим лес!"
+			x: -2.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["36DD94945D5B4A80"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Кованое железо имеет очень низкое содержание углерода, но этого достаточно, чтобы сделать его &bболее прочным&r, чем обычное железо."
+				""
+				"Инструменты &aGregTech&r из кованого железа на &650% прочнее&r своих железных собратьев. Возможно, стоит рассмотреть возможность использования кованого железа, пока не откроете &2что-то получше&r."
+				""
+				"Чтобы получить кованое железо, вы можете &6переплавить&r железные самородки в кованые самородки, а затем объединить их в слиток. Не переплавляйте всё железо, так как эти два вида &4не взаимозаменяемы&r."
+				""
+				"Это может занять много времени, но будьте уверены, вскоре вы откроете &eлучший способ&r производства кованого железа."
+			]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "563C96885A227C9F"
+			rewards: [{
+				count: 5
+				id: "3CDB383AFEBDB519"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Кошмар, оно кованное"
+			tasks: [{
+				id: "3DAB1D757B3B049D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/wrought_iron"
+					}
+				}
+				title: "Слиток кованного железа"
+				type: "item"
+			}]
+			title: "Лучше чем железо!"
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ECBA1CBFFB9F625"]
+			description: [
+				"Итак, ваш первый &oполноценный&r инструмент из &aGregTech&r. Первый из &dмногих&r..."
+				""
+				"Инструменты GT можно изготавливать из множества различных материалов. При использовании в рецептах крафта они &bне расходуются&r, а теряют прочность. Начните с железного инструмента, но можете выбрать и кованое железо, если уже выполнили это задание."
+				""
+				"&9&lМолот&f:&r — инструмент для крафта, который часто встречается в рецептах на ранних этапах игры. Его дополнительная функция — отключения звука машин с помощью щелчка правой кнопкой мыши."
+				""
+				"Кстати, все инструменты &aGregTech&r можно ремонтировать в наковальне, используя материал самого инструмента, как и любой другой инструмент из оригинальной игры. Если вам не хватает опыта, теперь можно создавать &eпузырьки опыта&r."
+			]
+			id: "7DEB73FD649BDFB6"
+			rewards: [{
+				id: "6C50A2A3D43D3FEE"
+				item: "gtceu:iron_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "Ваш первый инструмент GregTech"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:steel_hammer"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				id: "1A4DDB914D7D2F3C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hammers"
+					}
+				}
+				title: "Любой молот"
+				type: "item"
+			}]
+			title: "Стоп! Время молота!"
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"Этот молот не совсем похож на те, что вы будете использовать для крафта. Он на самом деле работает как &dкирка 3x3&r!"
+				""
+				"Если вы знакомы с &a&lTinker's Construct&r, то он ведет себя &aаналогично&r молоткам из этого мода."
+				""
+				"Воспользуйтесь этими молотками &bс толком&r! Они помогут вам очистить целую жилу за рекордное время."
+				""
+				"&eПримечание:&r Любой квест с инструментами GregTech может быть выполнен с использованием инструментов, изготовленных из любого материала, а не только из отображаемого."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_mining_hammer"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "4A365A7CC9E374F9"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Больше - значит эффективнее!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "gtceu:steel_mining_hammer"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				id: "4F372C393ADC6CE2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mining_hammers"
+					}
+				}
+				title: "Любой шахтерский молот"
+				type: "item"
+			}]
+			title: "Hammer down!"
+			x: 2.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"В реальном мире железо встречается &oне только&r в виде чистой железной руды. Вместо этого оно встречается в виде &aмножества&r &eоксидных форм&r или &eминералов&r."
+				""
+				"Вам нужно будет собрать немало железа, потому что вам очень скоро понадобится &9много&r. Если вам сложно его найти, вкладка задания &aГенерация руд&r содержит много информации о &eрудных жилах&r. Также рекомендуем вам проверить вкладки \"Информация о рудных жилах\" и \"Схема обработки руд\" в &2EMI&r."
+				""
+				"Любую из запрашиваемых нами руд можно напрямую переплавить в железо. Таким образом, получается &dчетыре различных жилы&r, из которых можно получить железо."
+				""
+				"В конце концов удача &cне работает&r в случае руд GregTech, &7к сожелению&r..."
+				"{@pagebreak}"
+				"Хотя в &bMinecraft с модами&r накопление руды, прежде чем открыть какой-либо способ её &aразмножения&r, может быть распространённой привычкой, не стоит пока беспокоиться о её переработке. Прямая плавка останется самым эффективным методом ещё &oдолгое, долгое&r время, учитывая, насколько легко добыть много руды за &eодин поход&r."
+				""
+				"Соберите &l&cлюбую&r из запрошенных &dсырых руд&r, чтобы завершить это задание!"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "1ECBA1CBFFB9F625"
+			rewards: [{
+				count: 32
+				id: "5CD664F60E977214"
+				item: "gtceu:magnetite_ore"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Где бы мне найти металоприемку?"
+			tasks: [{
+				id: "063705687ED657F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:raw_iron"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_yellow_limonite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_magnetite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_basaltic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_granitic_mineral_sand"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_pyrite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_goethite"
+							}
+							{
+								Count: 1b
+								id: "gtceu:raw_hematite"
+							}
+						]
+					}
+				}
+				title: "Любая железосодердащая руда"
+				type: "item"
+			}]
+			title: "Железяки"
+			x: 0.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DEB73FD649BDFB6"]
+			description: [
+				"Для дальнейшего развития требуются дополнительные инструменты GregTech — вот те, на которые стоит обратить внимание."
+				""
+				"&9&lГаечный ключ:&r Инструмент для крафта, но также и правильный инструмент для машин GregTech... идеально подходит, если вы считаете, что использование кирок неэтично. Его также можно использовать как &6гаечный ключ для других модов&r. Щелчок правой кнопкой мыши позволяет задать выходную сторону машин GregTech, а щелчок правой кнопкой мыши вприсяди вращает их."
+				""
+				"&9&lНапильник:&r Инструмент для крафта... и всё. Ура!"
+				""
+				"&9&lПила:&r Ещё один инструмент для крафта. Будь мы ещё злее, мы бы заставили вас использовать его, если вы хотите получить 4 доски и 4 палки по соответствующим рецептам крафта. Тем не менее, вы всё ещё можете использовать его, чтобы получить &a6 досок за бревно&r, если захотите."
+				"{@pagebreak}"
+				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "2001CB4968D3E0A2"
+			shape: "square"
+			size: 0.75d
+			subtitle: "Крути, точи, пили!"
+			tasks: [
+				{
+					id: "54E092F42DA65B86"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrenches"
+						}
+					}
+					title: "Любой гаечный ключ"
+					type: "item"
+				}
+				{
+					id: "4D6B7E2B4C8E5747"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "Любой напильник"
+					type: "item"
+				}
+				{
+					id: "23D6CF49FC7E82A9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Любая пила"
+					type: "item"
+				}
+			]
+			title: "Важные инструменты"
+			x: 3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"Дополнительные инструменты — сейчас они не так уж и важны, но в какой-то момент вам понадобятся и они."
+				""
+				"&9&lОтвёртка:&r Инструмент для крафта. Используется для специальной конфигурации механизмов и люков."
+				""
+				"&9&lКусачки:&r Инструмент для крафта. Он понадобится вам для настройки соединений проводов. Щелчок правой кнопкой мыши по проводам включает или отключает соединение с другими блоками."
+				""
+				"&9&lСтупка:&r Ремесленный инструмент, используемый для измельчения различных материалов в пыль."
+				""
+				"&9&lНож:&r Довольно посредственное оружие, больше подходящее — &oкак вы уже догадались&r — в качестве инструмента для крафта!"
+				""
+				"&9&lМягкий молоток:&r Инструмент для переключения работы машины простым щелчком правой кнопки мыши."
+				"{@pagebreak}"
+				"Есть еще пара инструментов, которые довольно узкоспециализированы, но заслуживают упоминания."
+				""
+				"&9&lМонтировка:&r Полезный инструмент, который может снимать крышки с машин &aGregTech&r, щелкнув правой кнопкой мыши по их бокам."
+				""
+				"&9&lКоса:&r Мощный инструмент для фермерства, который может автоматически пересаживать посевы на большой площади. Кроме того, это на удивление хорошее оружие!"
+				""
+				"&9&lВантуз:&r Инструмент для удаления застрявших жидкостей из машин GregTech&a."
+				""
+				"&9&lТесак:&r Оружие, изначально зачарованное на &6Добычу III&r. Его можно использовать для сбора кожи и еды."
+				"{@pagebreak}"
+				"&e&lПримечание:&r Награда за это задание — &3дамасская сталь&r — редкий материал, который можно найти только в качестве добычи в мире. Он значительно превосходит те материалы, которые у вас есть сейчас, так что обязательно используйте его."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_screwdriver"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "5C3501DD3B4788FA"
+			rewards: [{
+				count: 16
+				id: "433F0ED89B586383"
+				item: "gtceu:damascus_steel_ingot"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "4055931FAD6A5087"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					title: "Любая отвертка"
+					type: "item"
+				}
+				{
+					id: "0CB546DCA11BB335"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wire_cutters"
+						}
+					}
+					title: "Любые кусачки"
+					type: "item"
+				}
+				{
+					id: "4DF1C23D7DD1FAD6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mortars"
+						}
+					}
+					title: "Любая ступка"
+					type: "item"
+				}
+				{
+					id: "397DD831CA0665E7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/knives"
+						}
+					}
+					title: "Любой нож"
+					type: "item"
+				}
+				{
+					id: "1BFE642ED0595A93"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mallets"
+						}
+					}
+					title: "Любая киянка"
+					type: "item"
+				}
+			]
+			title: "Больше инструментов!"
+			x: 5.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"&e&lКоксовая печь&r, скорее всего, станет вашей первой многоблочной структурой &aGregTech&r. Поздравляем!"
+				""
+				"Он используется для производства &aКоксового угля&r из &eУгля&r или &aДревесного угля&r из &eБревен&r, вы так же получите &dкреозот&r в качестве &3бонусного&r продукта."
+				""
+				"Взгляните на вкладку &6Мультиблочная структура&r в EMI (нажмите &dU&r над блоком контроллера любой многоблочной структуры!), чтобы увидеть шаблон структуры."
+				"{@pagebreak}"
+				"&9Примечание:&r &lЛюбой&r кирпичный блок можно заменить на &3люк коксовой печи&r. Всего их может быть до пяти."
+				""
+				"Люк позволяет автоматизировать процесс — он &dавтоматически экспортирует&r как жидкости, так и предметы! Он также подходит для загрузки в коксовую печь (можно использовать воронки)."
+				""
+				"Если коксовая печь полностью заполнилась &eкреозотом&r, который вы не используете, разбейте и замените блок коксовой печи. &3Автоматизированное удаление жидкости&r станет доступно позже в игре."
+				"{@pagebreak}"
+				"&l&3Лор:&r&o Концепция мультиблоков — классика Minecraft с модами. Вспомните ядерный реактор из IC2 или коксовую печь из Railcraft — это была настоящая революция в своё время!&r"
+			]
+			icon: "gtceu:coke_oven"
+			id: "4946FC5BCA4CCA88"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "60891A0DEF29E9A1"
+				item: "gtceu:exquisite_coke_gem"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Не тот кокс о котором вы подумали)"
+			tasks: [{
+				id: "3545479A7C09CDFC"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			title: "Коксовая печь"
+			x: 5.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"Больше ресурсов всегда приятно. Вы приближаетесь к началу &6паровой эпохе&r — медь и олово требуются для многих машин &6паравой эпохи&r, так что проверьте вкладку «Информация о рудных жилах», чтобы узнать, в каких жилах их можно найти, и приступайте к добыче!"
+				""
+				"Если названия руд вас &bсбивают с толку&r, вы можете легко определить, какие элементы содержит руда, взглянув на её молекулярную формулу во всплывающей подсказке. Медь — &oCu&r, олово — &oSn&r, железо — &oFe&r, а остальное можно узнать из &3периодической таблицы&r. Пора освежить знания по химии — она понадобится вам &lпозже&r."
+				""
+				"Это задание можно выполнить, используя &9любой из металлов&r, так что вы сможете получить недостающий металл в качестве награды. Обязательно найдите источник обоих металлов как можно скорее, так как для прохождения &6паровой эпохи&r потребуется &a&oопределённый&r сплав меди и олова"
+			]
+			icon: "minecraft:copper_ingot"
+			id: "45969FFBF88F4FBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C28FA1A5275D24E"
+				table_id: 1702176335602373230L
+				type: "choice"
+			}]
+			size: 0.75d
+			subtitle: "Соберем еще больше ресурсов!"
+			tasks: [{
+				count: 32L
+				id: "616556ECE4DB6103"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 1b
+								id: "gtceu:tin_ingot"
+							}
+						]
+					}
+				}
+				title: "32 медных или оловянных слитка"
+				type: "item"
+			}]
+			title: "Вперед в Бронзовый век!"
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45969FFBF88F4FBB"]
+			description: [
+				"&6Бронза&r — это &2сплав&r меди и олова. Измельчите 3 части меди и 1 часть олова в пыль, затем смешайте и переплавьте их. Если вы не понимаете, как это делается, ознакомьтесь с рецептами в &dEMI&r."
+				""
+				"Постарайтесь сделать гораздо больше бронзовых слитков, чем требуется. Это основной материал для &6Паровой Эпохи&r, и вам понадобится ОЧЕНЬ много."
+				""
+				"&6&lПрогресс продолжается в главе &6&lПаровая эпоха.&r"
+				"{@pagebreak}"
+				"&l&3Лор:&r&o В реальной жизни соотношение меди и олова в бронзе ближе к 7:1. Здесь (и в большинстве модифицированных версий Minecraft) это &4не&f сделано ради игрового баланса. Много подобных вещей нужно подправить — реализма здесь &eнет&f."
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "315DBB3B23F95E0D"
+			rewards: [{
+				count: 32
+				id: "5F229B651404DF0E"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Первый сплав человечества — и ваш тоже!"
+			tasks: [{
+				count: 24L
+				id: "39AEA2923971A2B5"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "Бронзовый век? НЕТ! Паровая эпоха"
+			x: 5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DEB73FD649BDFB6"]
+			description: [
+				"Рецепт ведра был &d&lизменён.&r Теперь для него требуются плиты."
+				""
+				"Пластины используются абсолютно &bвезде&r в &aGregTech&r. Соединив два слитка с вашим новым &9молотом&r на верстаке, можно получить пластину. Такое соотношение довольно &cдорого,&r но лучшие рецепты для пластин появятся позже."
+				""
+				"Возьмите эту &6деревянную бочку&r, полную &bводы&r, в качестве награды. Хм... странная награда, не правда ли? Мы просто хотели показать вам, что все резервуары &aGTCEu&r портативны."
+			]
+			icon: "minecraft:bucket"
+			id: "592BD683A48C2AA2"
+			rewards: [{
+				id: "68D4ECFA9AD5349A"
+				item: {
+					Count: 1
+					id: "gtceu:wood_drum"
+					tag: {
+						Fluid: {
+							Amount: 16000L
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "#Реализм"
+			tasks: [{
+				id: "5DD165E4EB34C022"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			title: "Greg ужасен"
+			x: 2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Ладно, мы были очень великодушны и оставили соотношения бревен к доскам &cнеизмененным&r, но это же GregTech - плавка бревен в обычной печи &4&lневозможна&r. Вам понадобится построить &d&lкоксовую печь&r для того что бы получить хоть немного &6древесного угля&r."
+				""
+				"Доски все еще неплохое &6топливо для печей&r, особенно если учесть, что из одного бревна вы получаете &l&3четыре&r доски."
+				""
+				"Если вас это не устраивает, обычно можно было бы вернуть это поведение к стандартному в настройках GTCEu&r, но эта опция в настройках содержит ошибку. Чтобы отменить нерф, можно удалить скрипт \"charcoal.js\" в папке \"&bkubejs/server_scripts&r\"!"
+			]
+			icon: "minecraft:charcoal"
+			id: "36DD94945D5B4A80"
+			rewards: [{
+				count: 16
+				id: "5408859E43668198"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Не в мою смену!"
+			tasks: [{
+				count: 48L
+				id: "3DF01E4FACBB1D53"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Нам нужно больше бревен!"
+				type: "item"
+			}]
+			title: "Древесный уголь?"
+			x: 0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45969FFBF88F4FBB"]
+			description: [
+				"В этом &bлегковесном&r модпаке мы включили достаточно модов увеличивают качество жизни, чтобы &o(надеюсь)&r удовлетворить ваши потребности, и эта сборка по нашему мнению уже хороша."
+				""
+				"&dStorage Drawers&r и &dApplied Energistics 2&r есть в этой сборке, чтобы помочь с &eхранением предметов и жидкостей&r и &6логистикой&r. Их рецепты были изменены для соответствия прогрессу, но, надеюсь, вам не придётся играть 50 часов, чтобы создать свой первый &5Молекулярный сборщик&r. Есть также несколько других модов, которые могут вам пригодиться"
+				"{@pagebreak}"
+				"Но, может быть, вам требуется... &oчто-то большее&r?"
+				""
+				"Если играете в одиночку, смело добавляйте моды. Ещё немного &bКачества жизни&r не помешает... ещё больше &3Технологий&r могут удовлетворить ваши потребности... может быть, даже несколько &5магических&r модов, только не добавляйте &eProjectE&r. Обещаете?"
+				""
+				"В версии 1.12.2 &aGregtech: CEu&r было несколько дополнений &aGregTech&r, которые могут быть перенесены в версию Modern в будущем. Будьте уверены, этот пакет сделает &dвсё возможное&r для их поддержки, если они дойдут до этой версии!"
+			]
+			icon: "minecraft:structure_void"
+			id: "1283B4D7B5D82193"
+			rewards: [{
+				id: "460EC827273306A5"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Хочу установить DecoCraft"
+			tasks: [{
+				id: "70C69E5432F6C3BE"
+				title: "Я беру на себя ответственность за любые конфликты модов ;)"
+				type: "checkmark"
+			}]
+			title: "Больше модов?"
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45969FFBF88F4FBB"]
+			description: [
+				"Не волнуйтесь, эти детали действительно полезны — вам понадобится сделать &eещё сотни&r таких деталей. Полезно начать вырабатывать привычку."
+				""
+				"В целом, разумно ознакомиться с идеей &o\"&bмассового производства&r&o\"&r: если вам нужна 1 пластина, попробуйте сделать 8 и т.д. Это значит, что у вас будет много таких &dзаготовок&r для будущих крафтов. Возможно, вам покажется неразумным создавать &aстаки стержней или винтов&r, особенно на данном этапе, но они всегда будут использоваться, что избавит вас от множества мелких деталей в будущем."
+				""
+				"Если вам нужно &6еще больше&r доводов, взгляните на &dнаграды&r за этот квест."
+			]
+			icon: "minecraft:bone_meal"
+			id: "49A04E63F40D65C0"
+			rewards: [
+				{
+					count: 64
+					id: "6292C644EE1ACA59"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "380C42204033B5C4"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "725FA988559A2A06"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "650805CC3324B1A2"
+					item: {
+						Count: 1
+						id: "gtceu:iron_shovel"
+						tag: {
+							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B1124C773D1E30F"
+					item: {
+						Count: 1
+						id: "gtceu:iron_axe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Ты готов к микрокрафтингу?"
+			tasks: [
+				{
+					count: 16L
+					id: "36052E42DE641787"
+					item: "gtceu:iron_bolt"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "63F1C7989ADF097F"
+					item: "gtceu:iron_plate"
+					type: "item"
+				}
+			]
+			title: "Первая проверка"
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45969FFBF88F4FBB"]
+			description: [
+				"Железо, медь и олово помогут вам лишь на какое-то время. &4Редстоун&r и &bалмазы&r будут иногда требоваться в &6паровой эпохе&r, а никель, свинец и серебро тоже не помешают. Всё это &aпригодится довольно скоро&r."
+				""
+				"&o&8Если вам сложно найти эти материалы, обратитесь к вкладке «Информация о рудных жилах»!&r"
+			]
+			icon: "gtceu:silver_ingot"
+			id: "62212F2B51AC779E"
+			rewards: [
+				{
+					count: 128
+					id: "2C6F42288FF9B7DA"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5242721C19BCC092"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04BE5FBBF9402D5D"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "2D409B8436727D1C"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "35EE3F4BAAE41AC3"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "70008D5488014AF1"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29963CB493F50CC0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Иногда нужно быть неэффективным... чтобы быть эффективным!"
+			tasks: [
+				{
+					count: 64L
+					id: "37A7D2DE2F82E529"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "68684E4712C05221"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "59AA0604B02D17EF"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "0384FDE2E9B1414F"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46C1361E3C1678C4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Ранние инвестиции"
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&aОбязательно&r прочити &lэтот&r квест - в нем содержится &dважная информация&r, которая будет актуальна на протяжении всей игры"
+				""
+				"Подобные информативные задания будут появляться в той главе, в которой они разблокированы. Вы также можете обратиться к &b\"Советы и рекомендации\"&r если почуствуваете, что что-то забыли."
+				""
+				"Структура заданий призвана провести вас через все основные этапы развития &aGregTech&r. Каждый отдельный квест должен быть &2bполезным&r в том или ином смысле - если что-то не обязательно, то мы упомянем и об этом, так что не бойтесь пропустить что-то важное."
+				"{@pagebreak}"
+				"С этим модпаком можно играть на &dМирной сложности&r, так же можно использовать &oсохранение инвентаря&r, &oустановку точки дома&r, и телепортироваться по точкам на карте. Играйте так как вам нравится!"
+				""
+				"Хотя мы не будем навязывать вам настройки для упрощения игры, мы &4не нацеленны&r сделать эту сборку испытанием для режима &eВыживания&r, а скорее помочь вам изучить все тонкости &aGregTech CEu&r."
+				"{@pagebreak}"
+				"Наконец, полезно &lуметь работать&r с &eEMI.&r &aGregTech&r использует множество рецептов для одного предмета, так что не стоит пологать что первый рецепт в &eEMI&r будет самым эффективным."
+				""
+				"Когда возникают сложные рецепты (и мы не будем приукрашивать, &aGTCEu&r может быть пугающим), мы обязательно подскажем вам более &5эффективные пути&r. Однако мы настоятельно рекомендуем вам экспериментировать самостоятельно. Неинтересно следовать книге заданий наизусть, правда?"
+			]
+			icon: "ftbquests:book"
+			id: "13E9DF7E980CFC5B"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Прочитай, и за тем прочитай еще раз!"
+			tasks: [{
+				id: "04CC2E592A648F06"
+				title: "Я прочитал это сотню раз"
+				type: "checkmark"
+			}]
+			title: "Важная информация"
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"Крафт может быстро &eутомить&r. Как насчёт того, чтобы использовать свою &2новую пилу&r и сделать этот верстак?"
+				""
+				"Он позволяет вам использовать предметы из смежных инвентарей в крафте, что делает классический &aGregTech&r микрокрафт гораздо менее &4утомительным&r."
+				""
+				"Распилите стол еще раз и получите уменьшенную версию."
+			]
+			icon: "craftingstation:crafting_station"
+			id: "411AB552514EA14C"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Нет, Tinker's нет в этой сборке"
+			tasks: [{
+				id: "30D40010C8E6E115"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			title: "Рабочая станция"
+			x: 3.75d
+			y: -4.5d
+		}
+		{
+			description: [
+				"В этом обновлённом модпаке появился раздел &d«Руководства и прочее»&r. Информация в нём доступна для просмотра в любое время, но как только она станет актуальной, вы будете &6перенаправлены туда&r для лёгкого чтения."
+				""
+				"Информация, размещенная внутри этой книги, может вас заинтересовать, если вы хотите более подробно ознакомиться с некоторыми аспектами механики &bGTCEu&r, а в некоторых случаях она просто необходима."
+				""
+				"Задания, открывающие обучающий узел, будут иметь &6оранжевый дескриптор&r в нижней части описания задания."
+				""
+				"Приступайте к чтению!"
+			]
+			icon: "minecraft:lectern"
+			id: "008ABF78E56209F7"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "Советы и рекомендации, которые помогут вам"
+			tasks: [{
+				id: "382566FB9E8CFE29"
+				title: "Ладно, я понял, я понял."
+				type: "checkmark"
+			}]
+			title: "Обученный"
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"Вы найдете каучуковые деревья в &aлесу&r, &2джунглях&r или на &aболоте&r."
+				""
+				"Срубив древесину каучукового дерева вы получите &6Резину&r, которая будет важна для дальнейшего прогресса."
+				""
+				"Бревна после срубки могут показаться вам бесполезными, но они смогут быть переработанны в будующем."
+			]
+			id: "5193DD03C0742548"
+			rewards: [{
+				id: "4D70B6467A188FDD"
+				item: "gtceu:sticky_resin"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Нет, это не IC2"
+			tasks: [{
+				count: 8L
+				id: "76851CD51E99CA38"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			title: "Гивея?!"
+			x: 0.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0C690272ED4FB1C3"]
+			description: [
+				"Вы возможно уже находили &dповерхностные породы&r."
+				""
+				"Эти маленькие камушки указывают на тип жилы, находящейся прямо под ними. Просто подберите &c&l(ИЛИ СЛОМАЙТЕ!)&r их что бы получить &aКрошечные кучки пыли&r. Это так же добавит метку на вашу карту."
+				""
+				"Еще вы можете использовать &2EMI&r что бы узнать больше о жиле. Просто нажмите &dЛевой кнопкой мыши&r по сырью интересующей вас руды, и перейдите на вкладку &6Информация о рудных жилах&r. На этой вкладки будут приведены рудные жилы в которых можно найти эту руду и &bдругие руды&r которые встречаются в этих жилах, так же там вы можете узнать о &3объеме&r,  &eизмерении&r и &dдиапозоне высот&r, в котором может сгенерироваться жила."
+			]
+			icon: "gtceu:cobalt_indicator"
+			id: "3296B815876C3181"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "Почувствуй себя геологом"
+			tasks: [{
+				id: "3C54F075FEE53897"
+				title: "Я геолог!"
+				type: "checkmark"
+			}]
+			title: "Камушки!"
+			x: -2.25d
+			y: -2.25d
+		}
+	]
+	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]
+	title: "Введение"
+}
