@@ -1,5 +1,5 @@
 # GTCEu-Modern-Ru
-Русификатор для [GTCEu Modern](https://www.curseforge.com/minecraft/modpacks/gregtech-community-pack-modern)  
+Русификатор для [GregTech CEu Modern Community Pack-1.13.2]([https://www.curseforge.com/minecraft/modpacks/gregtech-community-pack-modern](https://www.curseforge.com/minecraft/modpacks/gregtech-community-pack-modern/files/6379336))  
 
 Квесты:  
   - [x] Введение  
