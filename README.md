@@ -22,5 +22,5 @@
     - [x] Катушки  
     - [ ] Мультиблоки  
     
-Моды: Crafting tables
+Моды: Crafting tables,
 GTCEu (Добавлен перевод теплицы)
